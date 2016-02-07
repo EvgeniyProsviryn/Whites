@@ -3,11 +3,25 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .menu{
-        width: 140px;
+        width: 100%;
         float: left;
-        margin-top: 100px;
-        margin-left: -160px;
     }
+    
+    .menu li{
+        width: 100%;
+    }
+    
+    .control-line{
+        display: none;
+    }
+    
+    .carousel-indicators{
+        display: block;
+    }
+    
+    a.carousel-control.left,a.carousel-control.right{
+    display: block;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -17,7 +31,19 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .carousel-caption h3{
+        font-size: 33px;
+    }
+    
+    .carousel-indicators{
+        top:85%;
+    }
+    
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    
+    
 }
 
 /* Extra Small Devices, Phones */
@@ -33,9 +59,23 @@
     
     .menu li{
         width: 100%;
-
     }
     
+    .carousel-indicators{
+        top:80%;
+    }
+    
+    .carousel-caption h3{
+        font-size: 24px;
+    }
+    
+    .carousel-caption p{
+        font-size: 12px;
+    }
+    
+    .fa-angle-left{
+        left: 10%;
+    }
 }
 
 /* Custom, iPhone Retina */

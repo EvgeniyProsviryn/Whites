@@ -57,3 +57,92 @@ body{
     background: #29c5e6;
     color: white;
 }
+
+.carousel-caption h3{
+    font-size: 42px;
+    font-family: oswald;
+    font-weight: 200;
+}
+
+.carousel-caption p{
+    font-size: 20px;
+    font-family: oswald;
+    font-weight: 200;
+}
+
+.carousel-control i{
+    position: absolute;
+    top:50%;
+    font-size: 54px;
+    margin-top: -27px;
+}
+
+.item img{
+    background-size: cover;
+}
+
+.slider{
+    margin-top: 30px;
+}
+
+.control-line{
+    height: 50px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.carousel-caption{
+    top:50%;
+    margin-top: -80px;
+}
+
+.slNav{
+    list-style: none;
+    font-family: oswald;
+    font-weight: 200;
+    font-size: 18px;
+    color: #8f8f8f;
+    margin-top: 12px;
+    padding: 0px;
+    margin-left: -30px;
+}
+
+.slNav>li>div{
+    margin-left: 35px;
+}
+
+ul.slNav>li>span{
+    display: block;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    background: #8f8f8f;
+    color: white;
+    float: left;
+}
+
+ul.slNav>li>span.active{
+    background: #29c5e6;
+}
+
+.slNav li{
+    float: left;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.slNav li.active{
+    color: #29c5e6;
+}
+
+.carousel-indicators{
+        top:90%;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+a.carousel-control.left,a.carousel-control.right{
+    display: none;
+}
