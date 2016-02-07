@@ -1,0 +1,59 @@
+body{
+    background: url(../img/noise.png);
+}
+
+.logo img{
+    float: left;
+    margin-top: 30px;
+}
+
+.search,.submit{
+    float: right;
+    background: none;
+    border: none;
+    margin-top: 27px;
+}
+
+.search{
+    border: 1px solid #e7e7e7;
+    padding: 12px;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #b2b2b2;
+    background: #f3f3f3;
+}
+
+.submit{
+    font-family: Tahoma;
+    font-size: 12px;
+    color: white;
+    background: #29c5e6;
+    padding: 12px;
+    font-family: oswald;
+    border:1px solid #29c5e6;
+}
+
+.menu{
+    float: left;
+    margin-top:28px;
+    width: 100%;
+    padding: 0px; 
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+    width: 142px;
+    height: 40px;
+    text-align: center;
+    background: #f3f3f3;
+    line-height: 40px;
+    font-family: oswald;
+    color: #b2b2b2;
+    cursor: pointer;
+}
+
+.menu li.active{
+    background: #29c5e6;
+    color: white;
+}

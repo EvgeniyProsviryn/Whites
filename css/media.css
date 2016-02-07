@@ -2,7 +2,12 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .menu{
+        width: 140px;
+        float: left;
+        margin-top: 100px;
+        margin-left: -160px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -17,7 +22,20 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .search,.submit{
+    display: none;
+}
+    .menu{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    
+    .menu li{
+        width: 100%;
 
+    }
+    
 }
 
 /* Custom, iPhone Retina */
