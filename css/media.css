@@ -7,6 +7,14 @@
         float: left;
     }
     
+    .Fcontent{
+        
+    }
+    
+    .aboutText{
+        width: 125px;
+    }
+    
     .menu li{
         width: 100%;
     }
@@ -19,6 +27,31 @@
         display: block;
     }
     
+    .lines{
+        margin-left: -25px;
+    }
+    
+    .Atext{
+        width: 280px;
+        height: 120px;
+        overflow: hidden;
+    }
+    
+    .aboutNews{
+        margin-left: -10px;
+    }
+    
+    .last .contLine,.firstT .contLine,.second .contLine{
+        width: 135px;
+        margin-left: -40px;
+    }
+    
+    
+    .firstA{
+        max-width: 220px;
+    }
+   
+    
     a.carousel-control.left,a.carousel-control.right{
     display: block;
 }
@@ -26,7 +59,63 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    
+    .social{
+        margin-left: 180px;
+    }
+    
+    .twText{
+        height: 65px;
+        overflow: hidden;
+    }
+    
+    .clients .lines{
+        width: 153%;
+        margin-left: -50px;
+    }
+  
+    .logoX{
+        display: none;
+    }
+    
+    .lines{
+        position: absolute;
+        width: 520px;
+        margin-left: -135px;
+    }
+    
+    .Atext{
+        width: 80%;
+        height: 120px;
+        overflow: hidden;
+    }
+    
+    .firstA{
+        max-width:90%;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    .twoNews{
+        margin-top: 20px;
+    }
+    
+    .firstT,.last,.second{
+        margin-left: 5px;
+    }
+    
+    .last,.second{
+        margin-top: 20px;
+    }
+    
+     .last .contLine,.firstT .contLine,.second .contLine{
+        margin-left: 65px;
+    }
+    
+    .last .contLine .lines,.firstT .contLine .lines,.second .contLine .lines{
+        width: 580px;
+    }
+    
 }
 
 /* Small Devices, Tablets */
@@ -35,6 +124,19 @@
         font-size: 33px;
     }
     
+    .twText{
+        height: 65px;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    
+    .social{
+        margin-left: 0px;
+        margin-top: 10px;
+        display: none;
+    }
+    
+    
     .carousel-indicators{
         top:85%;
     }
@@ -42,7 +144,26 @@
     .carousel-caption p{
         font-size: 14px;
     }
+   
     
+     .Atext{
+        width: 70%;
+        height: 120px;
+        overflow: hidden;
+    }
+    
+    .logoX{
+        display: block;
+        float: left;
+        margin-top: 20px;
+        left: 50%;
+        margin-left: -120px;
+    
+    }
+    
+    .copy{
+        
+    }
     
 }
 
@@ -55,6 +176,27 @@
         width: 100%;
         margin-top: 30px;
         margin-left: 0px;
+    }
+    
+    .clientIcons{
+        font-size: 56px;
+    }
+    
+    .firstA.col-xs-9{
+        height: 40px;
+        padding-top:5px;
+    }
+    
+     .Atext{
+        width: 50%;
+        height: 120px;
+        overflow: hidden;
+         font-size: 12px;
+    }
+    
+    .firstA{
+        max-width: 80%;
+        font-size: 12px;
     }
     
     .menu li{
@@ -76,12 +218,22 @@
     .fa-angle-left{
         left: 10%;
     }
+    
+    .aboutNews{
+        margin-left: -20px;
+    }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+    .Atext{
+        width: 40%;
+        height: 120px;
+        overflow: hidden;
+         font-size: 12px;
+    }
 }
+
 
 
 /*==========  Mobile First Method  ==========*/
